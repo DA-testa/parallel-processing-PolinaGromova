@@ -12,7 +12,7 @@ def parallel_processing(n, m, data):
         heapq.heappush(heap,(st_time + ti, thread))
 
     return output
-
+    
 def main():
     n, m=map(int, input().split())
     data=list(map(int, input().split()))
